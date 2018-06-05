@@ -1,6 +1,5 @@
-package com.jh.pattern
+package com.jh.pattern;
 
-,jh.pattern;
 
 import static org.junit.Assert.assertTrue;
 

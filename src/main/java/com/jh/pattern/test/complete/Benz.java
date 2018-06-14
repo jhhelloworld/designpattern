@@ -1,4 +1,4 @@
-package com.jh.pattern.test;
+package com.jh.pattern.test.complete;
 
 import com.jh.pattern.test.inter.ICar;
 

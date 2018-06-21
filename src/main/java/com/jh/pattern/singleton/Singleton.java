@@ -12,11 +12,5 @@ public class Singleton {
     public static void doSomething(){
 
     }
-    public static Singleton getSingleton() {
-        return singleton;
-    }
 
-    public static void doSomething(){
-        System.out.println("do something");
-    }
 }

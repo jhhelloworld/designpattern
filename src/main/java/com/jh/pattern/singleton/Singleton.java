@@ -1,9 +1,9 @@
 package com.jh.pattern.singleton;
 
 public class Singleton {
-    public static final Singleton singleton = new Singleton();
-
-    private Singleton(){}
+    private static final Singleton singleton = new Singleton();
+    private Singleton(){
+    }
 
     public static Singleton getSingleton(){
         return singleton;
@@ -11,5 +11,12 @@ public class Singleton {
 
     public static void doSomething(){
 
+    }
+    public static Singleton getSingleton() {
+        return singleton;
+    }
+
+    public static void doSomething(){
+        System.out.println("do something");
     }
 }
